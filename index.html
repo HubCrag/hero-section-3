@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cragi Starter Template vite js</title>
+    
+    <script type="module" crossorigin src="./main.js"></script>
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <span class="bg-drop"></span>
+    <!--Header-->
+    <header class="header">
+      <div class="container">
+        <div class="header__wrap">
+          <div class="logo">
+            <a href="#">Logo</a>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#" class="nav__link current">Home</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Discover</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Post a Job</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Contact Us</a></li>
+            </ul>
+          </nav>
+          <button>Sign Up</button>
+          <div class="burger">
+            <div class="burger__line"></div>
+          </div>
+        </div>
+      </div>
+    </header>    <!--/ Header-->
+
+    <!--Main-->
+    <main class="main">
+      <!--Hero section-->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__wrap">
+            <h1 class="title">
+              Get Connected to the Best Remote <br> Jobs in Your Field
+            </h1>
+            <p class="desc">
+              Discover a wide range of remote opportunities on our platform and <br> take control of your career
+            </p>
+            <div class="flex flex-wrap align-center justify-center gap-3">
+              <a href="#" class="btn">Explore Remote Jobs</a>
+              <a href="#" class="link">How it works?</a>
+            </div>
+          </div>
+        </div>
+      </section>      <!--/ Hero section-->
+
+      <!--Jobs section-->
+      <section class="jobs section">
+        <div class="container">
+          <h2 class="title">Featured Jobs</h2>
+          <div class="jobs__wrap flex flex-wrap justify-between gap-3">
+            <div class="jobs__item current">
+              <div class="head flex gap-2">
+                <svg class="icon">
+                  <use xlink:href="#icon-figma"></use>
+                </svg>
+                <div class="flex flex-column">
+                  <div class="name">Front-End Developer</div>
+                  <div class="tech">Figma</div>
+                </div>
+              </div>
+              <p class="desc">
+                We are looking for an experienced front-end developer to join our
+                team.
+              </p>
+              <div class="bottom flex flex-wrap justify-between">
+                <div class="meta">Rust</div>
+                <div class="price">$70,000 - $90,000</div>
+              </div>
+      
+            </div>
+            <div class="jobs__item">
+              <div class="head flex gap-2">
+                <svg class="icon">
+                  <use xlink:href="#icon-fb"></use>
+                </svg>
+                <div class="flex flex-column">
+                  <div class="name">Data Scientist</div>
+                  <div class="tech">Facebook</div>
+                </div>
+              </div>
+              <p class="desc">
+                We are seeking a data scientist to join our team.
+              </p>
+              <div class="bottom flex flex-wrap justify-between">
+                <div class="meta">Python</div>
+                <div class="price">$100,000 - $130,000</div>
+              </div>
+            </div>
+            <div class="jobs__item">
+              <div class="head flex gap-2">
+                <svg class="icon">
+                  <use xlink:href="#icon-vercel"></use>
+                </svg>
+                <div class="flex flex-column">
+                  <div class="name">Technical Writer</div>
+                  <div class="tech">Vercel</div>
+                </div>
+              </div>
+              <p class="desc">
+                We are seeking a technical writer to join our team.
+              </p>
+              <div class="bottom flex flex-wrap justify-between">
+                <div class="meta">Documentation</div>
+                <div class="price">$60,000 - $80,000</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>      <!--/ Jobs section-->
+    </main>
+    <!--/ Main-->
+  </body>
+</html>
